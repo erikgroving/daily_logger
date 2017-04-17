@@ -22,5 +22,6 @@ for item in tasks:
 	new_info += '{0: <50}'.format(item)
 	new_info += resp + '\n'
 new_info += '\n\n'
-contents = new_info + contents;
+contents = new_info + contents
 f.write(contents)
+f.close()
